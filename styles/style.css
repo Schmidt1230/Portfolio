@@ -1,6 +1,7 @@
 /* General Styling */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 
 *{/*This is for entire page*/
     margin: 0;
@@ -172,7 +173,7 @@ section {
     text-align: center;
 }
 
-.section__text__p{
+.section__text p{
     font-weight: 600;
 }
 
