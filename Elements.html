@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href="styles/buttons.css">
+        <link rel = "stylesheet" href="styles/style.css">
     <title> Elements </title>
     </head>
     <body>
@@ -18,13 +18,23 @@
                 </ul>
             </div>
         </nav>
-    <button class = "subscribe-button"> 
-        SUBSCRIBE 
-    </button>
+        <nav id = "hamburger-nav">
+            <div class = "logo">Stephan Schmidt</div>
+            <div class = "hamburger-menu">
+                <div class = "hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class = "menu-links">
+                <li><a href="#about" onclick = "toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick = "toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick = "toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick = "toggleMenu()">Contacts</a></li>
+            </div>
+            </div>
+        </nav>
 
-    <button class = "join-button">
-        JOIN
-    </button>
     </body>
 </html>
 
