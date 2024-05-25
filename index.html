@@ -18,7 +18,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,8 +33,8 @@
             <div class = "menu-links">
                 <li><a href="#about" onclick = "toggleMenu()">About</a></li>
                 <li><a href="#skills" onclick = "toggleMenu()">Skills</a></li>
-                <li><a href="#Projects" onclick = "toggleMenu()">Projects</a></li>
-                <li><a href="#Contact" onclick = "toggleMenu()">Contacts</a></li>
+                <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick = "toggleMenu()">Contact</a></li>
             </div>
             </div>
         </nav>
@@ -48,7 +48,7 @@
                 <p class = "section__text__p2">-Programmer</p>
                 <div class = "btn-container">
                     <button class = "btn btn-color-2" onclick = "window.open('./assets/CV.pdf')">Download CV</button>
-                    <button class = "btn btn-color-1" onclick = "location.href= './#Contact'">Contact</button>
+                    <button class = "btn btn-color-1" onclick = "location.href='./#contact'">Contact</button>
                     <div id = "socials-container">
                         <img src="./assets/linkedin.png" alt="My linkedIn profile" class = "icon" onclick="location.href = 'https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit'">
                         <img src="./assets/github.png" alt="My github profile" class = "icon" onclick="location.href = 'https://github.com/Schmidt1230'">
@@ -161,18 +161,15 @@
             <h1 class="title">Personal Projects</h1>
             <div class = "skills-details-container">
                 <div class = "details-container color-container">
+                    <h2 class="skills-sub-title project-title">ChatterBox</h2>
                     <div class = "article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img">
                     </div>
-                    <h2 class="skills-sub-title project-title">ChatterBox</h2>
-
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/Schmidt1230/ChatterBox'">Github</button>
                     </div>
 
-                    <div>
-                        <video controls src="./assets/chatterbox.mp4" class = "video"></video>
-                    </div>
+
                     <div class = "text-container">
                     <p class="section__text__p1"><br/>About ChatterBox,<br/><br/>
                     ChatterBox is a Python application which was created using the GUI library customtkinter. This application allows users to create a new user and
@@ -180,12 +177,37 @@
                     users to add a friend based on their unique username and then send direct messages to their specified friend. The application also provides real time updates to receive new messages instantly.
                      There is also functionallity to create a group chat and add any user, also based on their unique username. 
                     </p></div>
+                    <div>
+                        <br>
+                        <h2 class="skills-sub-title project-title">Video Demonstrating ChatterBox:</h2>
+                        <video controls src="./assets/chatterbox.mp4" class = "video"></video>
+                    </div>
 
                 </div>
             </div>
         </section>
-        <section id = "contact"></section>
-        
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:stephanschmidt1230@gmail.com">stephanschmidt1230@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/stephan-schmidt-a13555265/">LinkedIn</a></p>
+              </div>
+            </div>
+          </section> 
     <script src="script.js"></script>
     </body>
 </html>
