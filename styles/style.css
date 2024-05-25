@@ -366,6 +366,7 @@ article .icon{
 }
 
 .project-btn{
+    margin-top: 2.5rem;
     color: black;
     border-color: rgb(163, 163, 163);
 }
@@ -379,7 +380,7 @@ video {
     }
 
 #contact {
-    margin-top: 45rem;
+    margin-top: 60rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
